@@ -36,15 +36,27 @@ a{
     
 }
 
+.row__main{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+}
+
+.col__main{
+    width: 100%;
+    padding: 25px;
+
+
+    
+}
+
 .container__foot{
     height: 50px;
     
     display: flex;
     flex-direction: row;
-    
-   
-    
-    
 
 }
 
@@ -59,6 +71,13 @@ a{
 .col__foot{
     width: calc(3 * 100% /12);
     padding: 15px;
+}
+
+.middle__section{
+    width: calc(100% / 8);
+    border-left: 1px solid white;
+    padding: 20px;
+
 }
 
 
@@ -76,11 +95,11 @@ a{
 }
 
 .bg-blue{
-    background-color: rgb(0, 0, 77);
+    background-color: #191f27;
 }
 
 .bg-bluedark{
-    background-color: rgb(0, 0, 77, 0.7);
+    background-color: #151920;
 }
 
 .bg-grey{
@@ -100,4 +119,28 @@ a{
     display: flex;
     gap: 20px;
     list-style: none;
+}
+
+.button{
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.padd-vert{
+    padding: 10px 0;
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gap{
+    gap:30px
 }
