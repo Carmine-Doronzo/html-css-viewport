@@ -33,8 +33,17 @@ a{
     
 }
 
-.col__foot{
-    
+.container__foot{
+    width: 90vh;
+    display: flex;
+
+}
+
+.row__foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
 }
 
 
