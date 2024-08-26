@@ -1,0 +1,1 @@
+Qui abbiamo il layout di Spotify e iniziamo a utilizzare vh e vw come unità di misura per le dimensioni in CSS.
